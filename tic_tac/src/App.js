@@ -55,11 +55,13 @@ const App =() =>{
 
     const playAgain =() =>{
 
+        window.location.reload();
         setCross(true)
         setWinMssg("")
         maze.fill("");
         select=false;
         flag=false;
+
     }
 
     const findWinner =() =>{
